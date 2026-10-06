@@ -1,0 +1,6 @@
+version="8.2608.0-4"
+version_suffix="gl0~bp1877"
+
+git_src -b "debian/$version" "https://salsa.debian.org/debian/rsyslog.git"
+
+apply_patches

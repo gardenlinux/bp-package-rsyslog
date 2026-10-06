@@ -1,0 +1,13 @@
+diff --git a/debian/control b/debian/control
+index d4880de1..236f2386 100644
+--- a/debian/control
++++ b/debian/control
+@@ -1,7 +1,7 @@
+ Source: rsyslog
+ Section: admin
+ Maintainer: Michael Biebl <biebl@debian.org>
+-Build-Depends: debhelper-compat (= 14),
++Build-Depends: debhelper-compat (= 13),
+                dh-exec,
+                autoconf-archive,
+                zlib1g-dev,
